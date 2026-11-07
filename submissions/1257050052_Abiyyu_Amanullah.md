@@ -1,46 +1,36 @@
-## 🚀 Formulir Pengumpulan Tugas n8n Study Jam
-### Google Developer Groups on Campus (GDGoC) - Universitas Widyatama
+# Submission n8n Study Jam - GDGoC Universitas Widyatama
 
-Terima kasih telah berpartisipasi dan menyelesaikan tugas di **n8n AI & Automation Study Jam**!
-Silakan lengkapi formulir di bawah ini dengan cermat agar tim instruktur & reviewer dapat memverifikasi berkas submission kamu.
-
----
-
-### 👤 Data Diri & Repositori Peserta
+## 👤 Informasi Peserta
 - **Nama Lengkap**: Abiyyu Amanullah
 - **NIM**: 1257050052
-- **Username GitHub**: @abiyyumnllh 
-- **URL Repositori Submission Pribadi**: https://github.com/abiyyumnllh/GDGoC-n8n-StudyJam
-- **Path Berkas Submission**: `submissions/1257050052_Abiyyu_Amanullah.md`
+- **Program Studi**: Teknik Informatika
+- **Username GitHub**: [@abiyyumnllh](https://github.com/abiyyumnllh)
+- **URL Repositori Tugas**: [https://github.com/abiyyumnllh/GDGoC-n8n-StudyJam](https://github.com/abiyyumnllh/GDGoC-n8n-StudyJam)
 
 ---
 
-### 📚 Cakupan Tugas yang Dikumpulkan (P1 - P5)
-*Beri tanda centang `[x]` pada pertemuan yang telah kamu selesaikan:*
-- [x] **Pertemuan 1 (P1)**: Pengenalan n8n & Workflow Automation Dasar
-- [ ] **Pertemuan 2 (P2)**: Webhook Triggers & Data Transformation
-- [ ] **Pertemuan 3 (P3)**: Advanced API Integration & Error Handling
-- [ ] **Pertemuan 4 (P4)**: AI Agent & LLM Chain Automation di n8n
-- [ ] **Pertemuan 5 (P5)**: Capstone Final Project: Smart Autonomous AI Workflow
+## 📊 Matriks Progres Tugas (P1 - P5)
+
+| Pertemuan | Topik Tugas | Tautan File Workflow (.json) | Bukti Eksekusi (Screenshot) | Status |
+| :---: | :--- | :---: | :---: | :---: |
+| **P1** | Pengenalan n8n & Workflow Automation Dasar | [P1_Abiyyu_Amanullah.json](https://github.com/abiyyumnllh/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Abiyyu_Amanullah.json) | [P1_Abiyyu_Amanullah.png](https://github.com/abiyyumnllh/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Abiyyu_Amanullah.png) | Selesai |
+| **P2** | Webhook Triggers & Data Transformation | - | - | Belum Selesai |
+| **P3** | Advanced API Integration & Error Handling | - | - | Belum Selesai |
+| **P4** | AI Agent & LLM Chain Automation di n8n | - | - | Belum Selesai |
+| **P5** | Capstone Final Project: Smart Autonomous AI | - | - | Belum Selesai |
 
 ---
 
-### ✅ Checklist Verifikasi Mandiri
-*Wajib centang seluruh poin di bawah ini sebelum membuat Pull Request:*
-- [x] **Repositori Berstatus Public**: Repositori `GDGoC-n8n-StudyJam` di akun GitHub pribadiku telah disetel ke **Public** (bukan Private).
-- [x] **File Workflow JSON Sesuai Format**: File alur kerja (`.json`) hasil export dari n8n sudah diunggah sesuai format penamaan wajib `P<No>_<Nama>.json` (contoh: `P1_Dyaksa.json`) dan dapat diimpor tanpa kendala.
-- [x] **Bukti Eksekusi (Evidence) Valid**: Screenshot eksekusi sukses (contoh: `P1_Dyaksa.png`, indikator node hijau dan data output terlihat) telah diunggah dan terbaca dengan jelas.
-- [x] **Bebas dari Kredensial / API Key Bocor**: Sudah memeriksa dan memastikan **TIDAK ADA** OpenAI API Key, Telegram Token, credential secret, atau password yang tersimpan di dalam file `.json` (telah disanitasi menggunakan placeholder).
-- [x] **Kesesuaian Format Berkas**: Berkas submission di repo ini telah ditempatkan di `submissions/NIM_NamaLengkap.md` dengan template yang telah ditentukan.
+## 💡 Ringkasan & Solusi Otomasi (Workflow Highlights)
+Tuliskan penjelasan singkat mengenai alur kerja yang telah kamu bangun:
+- **Tujuan Workflow**: Membangun alur kerja otomasi n8n berbasis Webhook untuk menerima HTTP request (POST), memproses data JSON, serta mengembalikan respons secara real-time ke client pengirim.
+- **Node Kunci yang Digunakan**: Webhook Node, Edit Fields (Set) Node, dan Respond to Webhook Node.
+- **Logika Alur Kerja**:
+  1. **Webhook Node** menerima data JSON (`Nama` dan `Pesan`) yang dikirim melalui metode POST dari Hoppscotch.
+  2. Data diproses pada **Edit Fields Node** menggunakan ekspresi dinamis `{{ $json.body.Nama }}` dan `{{ $json.body.Pesan }}` untuk menyusun teks balasan.
+  3. **Respond to Webhook Node** mengembalikan pesan balasan tersebut ke Hoppscotch sebagai respons HTTP sukses.
 
 ---
 
-### 💬 Catatan / Deskripsi Tambahan (Opsional)
-Pengumpulan tugas Pertemuan 1 n8n Study Jam (Workflow Automation dengan Webhook, Edit Fields, dan Respond to Webhook). Alur kerja telah diuji dan berjalan dengan sukses.
-
-
----
-
-> [!NOTE]
-> Setelah Pull Request ini disetujui (*approved*) dan di-merge oleh reviewer, namamu akan otomatis tercatat di berkas **CONTRIBUTORS.md**.
-> Dikelola oleh Tim Teknis GDGoC Widyatama & [@xdyaksa](https://github.com/xdyaksa).
+## 🌟 Refleksi & Kesan Belajar
+Pengalaman belajar di Pertemuan 1 n8n Study Jam GDGoC Universitas Widyatama sangat seru dan bermanfaat, apalagi bagi saya yang masih baru dengan hal seperti n8n.
