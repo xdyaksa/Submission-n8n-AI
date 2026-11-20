@@ -14,7 +14,7 @@
 | Pertemuan | Topik Tugas | Tautan File Workflow (.json) | Bukti Eksekusi (Screenshot) | Status |
 | :---: | :--- | :---: | :---: | :---: |
 | **P1** | Pengenalan n8n & Workflow Automation Dasar | [P1_Syifa_Nur_Aini.json](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Syifa_Nur_Aini.json) | [Bukti 1](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Syifa_Nur_Aini_1.png) • [Bukti 2](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Syifa_Nur_Aini_2.png) • [Bukti 3](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-01/P1_Syifa_Nur_Aini_3.png) | Selesai |
-| **P2** | Webhook Triggers & Data Transformation | Belum | Belum | Belum |
+| **P2** | Webhook Triggers & Data Transformation | [P2_Syifa_Nur_Aini.json](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-02/P2_260611011_Syifa_Nur_Aini.json) | [Bukti 1](https://github.com/cipaaycipuk/GDGoC-n8n-StudyJam/blob/main/Pertemuan-02/P2_260611011_Syifa_Nur_Aini.png) | Selesai |
 | **P3** | Advanced API Integration & Error Handling | Belum | Belum | Belum |
 | **P4** | AI Agent & LLM Chain Automation di n8n | Belum | Belum | Belum |
 | **P5** | Capstone Final Project: Smart Autonomous AI | Belum | Belum | Belum |
