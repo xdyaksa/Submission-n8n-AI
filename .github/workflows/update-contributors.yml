@@ -1,9 +1,6 @@
 name: Update Contributors List
 
 on:
-  pull_request:
-    types: [closed]
-    branches: [main]
   push:
     branches: [main]
     paths:
@@ -16,7 +13,7 @@ permissions:
 
 jobs:
   update-contributors:
-    if: (github.event_name == 'pull_request' && github.event.pull_request.merged == true) || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.actor != 'github-actions[bot]')
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.actor != 'github-actions[bot]')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
